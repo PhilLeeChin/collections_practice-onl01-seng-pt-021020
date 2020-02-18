@@ -24,9 +24,10 @@ end
 
 def kesha_maker(array)
   array.each_with_index do |element, i|
-    binding.pry
-  if i == 2
-    element[]
+      binding.pry
+    if i == 2
+      element[]
+    end
   end
 end
 
