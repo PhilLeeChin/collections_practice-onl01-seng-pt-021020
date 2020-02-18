@@ -22,8 +22,12 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(string)
-  string[2] = "$"
+def kesha_maker(array)
+  array.each_with_index do |element, i|
+    binding.pry
+  if i == 2
+    element[]
+  end
 end
 
 def find_a(array)
