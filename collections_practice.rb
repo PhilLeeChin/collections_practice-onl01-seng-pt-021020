@@ -24,12 +24,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each_with_index do |element, i|
-      binding.pry
-    if i == 2
-      element[]
-    end
+  newarr = []
+  array.each do |name|
+      #binding.pry
+      name[2] = "$"
+      newarr << name
   end
+  newarr
 end
 
 def find_a(array)
