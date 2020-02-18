@@ -23,12 +23,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(string)
-  newstr = string.split
-  newarr = []
-  newstr.each do |i|
-    newarr << "#{i.length[3]}" + "$"
-  end
-  newarr.join
+  string[2] = "$"
 end
 
 def find_a(array)
